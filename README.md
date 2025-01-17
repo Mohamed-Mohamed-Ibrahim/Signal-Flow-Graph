@@ -1,5 +1,9 @@
 # Signal Flow Graph & Routh Stability Criterion
 
+<h4 align="center">A comprehensive tool for analyzing control systems using Signal Flow Graph and Routh Stability Criterion. It offers a graphical interface for drawing signal flow graphs, calculating transfer functions, and checking system stability with ease.</h4>
+
+---
+
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#dependencies">Dependencies</a> •
