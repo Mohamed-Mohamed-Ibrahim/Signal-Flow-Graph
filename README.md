@@ -2,15 +2,35 @@
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
   <a href="#dependencies">Dependencies</a> •
-  <a href="#app-design">App Design</a> •
-  <a href="#future-features">Future Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#signal-flow-graph">Signal Flow Graph</a> •
+  <a href="#routh-stability-criterion">Routh Stability Criterion</a> •
   <a href="#documentation">Documentation</a> •
   <a href="#contact">Contact</a> •
   <a href="#license">License</a> •
-  <a href="#acknowledgements">Acknowledgements</a>
 </p>
+
+---
+
+## Key Features
+
+- **Signal Flow Graph**
+  1. Draw the signal flow graph 
+
+  2. Assignment of values to the branches 
+
+  3. Assignment of input and output node 
+
+  4. Solve the signal flow graph to get the transfer function
+
+  5. Listing all forward paths, individual loops, all combination of n non-touching loops. 
+- **Routh Stability Criterion**
+  - Parses the characteristic equation to extract coefficients.
+  - Constructs the Routh array based on the extracted coefficients.
+  - Determines system stability using the Routh-Hurwitz criterion.
+  - Finds the roots of the characteristic equation and identifies poles in the RHP.
+  - Displays the Routh array, system stability status, and roots of the equation.
 
 ---
 
@@ -44,6 +64,8 @@ $ cd backend
 $ java -jar backend.jar
 
 ```
+
+---
 
 # Signal Flow Graph
 
@@ -166,6 +188,7 @@ Frontend:
 
 ![](./docs/img/report.pdf-image-015.png)
 
+---
 
 # Routh Stability Criterion
 
@@ -223,6 +246,12 @@ Given the characteristic equation of a system, implement the Routh-Hurwitz stabi
 2)The program will display the Routh array, system stability status, and roots of the characteristic equation. 
 
 3)If the system is unstable, the program will also list the number and values of poles in the right-half plane. 
+
+---
+
+## Documentation
+
+More detials can be found in [Programming Assignment](./docs/Programming%20Assignment.pdf) and [Report](./docs/report.pdf).
 
 ---
 
