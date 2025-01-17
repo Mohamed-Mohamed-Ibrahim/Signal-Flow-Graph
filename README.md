@@ -20,21 +20,18 @@
 ## Key Features
 
 - **Signal Flow Graph**
-  1. Draw the signal flow graph 
+  - Draw the signal flow graph 
+  - Assignment of values to the branches 
+  - Assignment of input and output node 
+  - Solve the signal flow graph to get the transfer function
+  - Listing all forward paths, individual loops, all combination of n non-touching loops. 
 
-  2. Assignment of values to the branches 
-
-  3. Assignment of input and output node 
-
-  4. Solve the signal flow graph to get the transfer function
-
-  5. Listing all forward paths, individual loops, all combination of n non-touching loops. 
 - **Routh Stability Criterion**
-  - Parses the characteristic equation to extract coefficients.
-  - Constructs the Routh array based on the extracted coefficients.
-  - Determines system stability using the Routh-Hurwitz criterion.
-  - Finds the roots of the characteristic equation and identifies poles in the RHP.
-  - Displays the Routh array, system stability status, and roots of the equation.
+  - Parses the characteristic equation to extract coefficients. 
+  - Constructs the Routh array based on the extracted coefficients. 
+  - Determines system stability using the Routh-Hurwitz criterion. 
+  - Finds the roots of the characteristic equation and identifies poles in the RHP. 
+  - Displays the Routh array, system stability status, and roots of the equation. 
 
 ---
 
@@ -234,13 +231,13 @@ Given the characteristic equation of a system, implement the Routh-Hurwitz stabi
 
 ### 6) Sample Runs 
 
-1. 1st Test Case
+1. 1st Test Case<br>
    ![](./docs/img/report.pdf-image-016.jpg)
-2. 2nd Test Case
+2. 2nd Test Case<br>
    ![](./docs/img/report.pdf-image-017.jpg)
-3. 3rd Test Case
+3. 3rd Test Case<br>
    ![](./docs/img/report.pdf-image-018.jpg)
-4. 4th Test Case
+4. 4th Test Case<br>
    ![](./docs/img/report.pdf-image-019.jpg)
 
 ### 7) Simple User Guide
