@@ -12,7 +12,7 @@
   <a href="#routh-stability-criterion">Routh Stability Criterion</a> •
   <a href="#documentation">Documentation</a> •
   <a href="#contact">Contact</a> •
-  <a href="#license">License</a> •
+  <a href="#license">License</a>
 </p>
 
 ---
