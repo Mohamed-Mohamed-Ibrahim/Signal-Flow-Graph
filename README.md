@@ -61,7 +61,7 @@ $ npm start
 
 # second cli
 $ cd backend
-$ java -jar backend.jar
+$ java -jar backend.jar 
 
 ```
 
